@@ -238,6 +238,34 @@ img {
 .mob-contacts-data {
 }
 
+/* Footer links style */
+.footer-soc {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.footer-soc a {
+  color: #404bbf;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  transition: color 250ms ease-in-out, transform 250ms ease-in-out;
+}
+
+.footer-soc a:hover,
+.footer-soc a:focus {
+  color: #2e2f42;
+  transform: translateY(-1px);
+}
+
+.footer-soc a:active {
+  color: #1f236b;
+}
+
+
 .mob-adress-list {
   display: flex;
   flex-direction: column;
