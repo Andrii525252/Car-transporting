@@ -6,6 +6,55 @@ body {
   font-weight: 400;
 }
 
+.page-content {
+  background-color: #f4f4fd;
+  min-height: 100vh;
+  padding: 40px 16px;
+}
+
+.page-block {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid rgba(46, 47, 66, 0.12);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(46, 47, 66, 0.08);
+  padding: 32px;
+}
+
+.page-block h1 {
+  font-size: 36px;
+  line-height: 1.1;
+  color: #2e2f42;
+  margin-bottom: 24px;
+}
+
+.page-block h2 {
+  font-size: 24px;
+  color: #404bbf;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.page-block p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #434455;
+  margin-bottom: 16px;
+}
+
+.page-block a {
+  color: #4d5ae5;
+  text-decoration: none;
+  border-bottom: 1px dashed #4d5ae5;
+}
+
+.page-block a:hover,
+.page-block a:focus {
+  color: #404bbf;
+  border-bottom-color: #404bbf;
+}
+
 p,
 h1,
 h2,
