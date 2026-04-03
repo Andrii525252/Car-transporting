@@ -246,7 +246,7 @@ img {
   margin-top: 16px;
 }
 
-.footer-soc a {
+.footer-soc .footer-link {
   color: #404bbf;
   font-weight: 500;
   font-size: 14px;
@@ -255,13 +255,13 @@ img {
   transition: color 250ms ease-in-out, transform 250ms ease-in-out;
 }
 
-.footer-soc a:hover,
-.footer-soc a:focus {
+.footer-soc .footer-link:hover,
+.footer-soc .footer-link:focus {
   color: #2e2f42;
   transform: translateY(-1px);
 }
 
-.footer-soc a:active {
+.footer-soc .footer-link:active {
   color: #1f236b;
 }
 
