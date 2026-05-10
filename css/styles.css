@@ -223,6 +223,12 @@ img {
   padding: 24px 24px 40px 16px;
 }
 
+.mob-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 .mob-close {
   border-radius: 50%;
   width: 24px;
